@@ -836,9 +836,6 @@ apply_everything() {
     enable_packages
     sleep 0.5
 
-    swap_maker
-    sleep 0.5
-
     sysctl_optimizations
     sleep 0.5
 
