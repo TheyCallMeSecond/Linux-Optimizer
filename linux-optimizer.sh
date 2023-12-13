@@ -260,23 +260,23 @@ sleep 0.5
 case $OS in
 ubuntu)
     # Ubuntu
-    wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/scripts/ubuntu-optimizer.sh" -q -O ubuntu-optimizer.sh && chmod +x ubuntu-optimizer.sh && bash ubuntu-optimizer.sh 
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheyCallMeSecond/Linux-Optimizer/main/scripts/ubuntu-optimizer.sh)"
     ;;
 debian)
     # Debian
-    wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/scripts/debian-optimizer.sh" -q -O debian-optimizer.sh && chmod +x debian-optimizer.sh && bash debian-optimizer.sh 
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheyCallMeSecond/Linux-Optimizer/main/scripts/debian-optimizer.sh)"
     ;;
 centos)
     # CentOS
-    wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/scripts/centos-optimizer.sh" -q -O centos-optimizer.sh && chmod +x centos-optimizer.sh && bash centos-optimizer.sh 
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheyCallMeSecond/Linux-Optimizer/main/scripts/centos-optimizer.sh)" 
     ;;
 almalinux)
     # AlmaLinux
-    wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/scripts/centos-optimizer.sh" -q -O almalinux-optimizer.sh && chmod +x almalinux-optimizer.sh && bash almalinux-optimizer.sh 
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheyCallMeSecond/Linux-Optimizer/main/scripts/centos-optimizer.sh)" 
     ;;
 fedora)
     # Fedora
-    wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/scripts/fedora-optimizer.sh" -q -O fedora-optimizer.sh && chmod +x fedora-optimizer.sh && bash fedora-optimizer.sh 
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheyCallMeSecond/Linux-Optimizer/main/scripts/fedora-optimizer.sh)" 
     ;;
 unknown)
     # Unknown
